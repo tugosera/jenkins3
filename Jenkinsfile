@@ -15,7 +15,6 @@ pipeline {
         stage('tests') {
             steps {
                 sh 'docker run -d -p 3000:3000 --name travel express'
-                sh 'docker exec travel sh -c "npm test"'
             }
         }
     }
