@@ -5,7 +5,7 @@ pipeline{
         stage('initialling'){
             steps {
                 sh 'npm i'
-            }                  }
+            }                 
         }
         stage('building'){
             steps {
