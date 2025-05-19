@@ -19,5 +19,4 @@ pipeline{
                 sh 'docker exec travel sh -c "npm test"'
             }
         }
-    }
-} 
+    } 
